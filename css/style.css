@@ -92,6 +92,17 @@ h1{
 }
 .footer{
   margin-top: 30px;
+  text-align: center;
+}
+.links text-center{
+  text-align: center;
+}
+.text-center social{
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 100%
 }
 .form-cont{
   text-align: center;
@@ -126,7 +137,7 @@ h1{
 #portfolio img {
     width: 100%;
 }
-.meda {
+.card {
     margin: 10px 0;
     position: relative;
     overflow: hidden;
@@ -145,7 +156,7 @@ h1{
     transition: all 0.5s ease;
 }
 
-.deb {
+.card {
     padding: 5% 0;
     color: white;
     background-color: rgba(0, 0, 0, 0.301);
