@@ -9,6 +9,7 @@
 #first{
   padding-top: 14%;
   margin-bottom: 9%;
+  text-align: center;
 }
 #head{
   background-image:url('../images/backgrounds/h_img.jpg');
@@ -16,12 +17,16 @@
   background-repeat: no-repeat;
   position: relative;
 }
+#last{
+  text-align: center;
+}
 h6{
   height: 4.8px;
 }
 #about{
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 .resize{
   font-size: calc(1vh + 1vw + .5vmin);
@@ -48,9 +53,10 @@ h1{
   background-image: url('../images/backgrounds/s_image.jpg');
   color: #fff;
   margin-bottom: 50px;
-    background-position: center;
-    padding-top: 120px;
-    padding-bottom: 80px;
+  background-position: center;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  text-align: center;
 }
 .card-deck{
   padding: 1% 4%;
@@ -63,8 +69,8 @@ h1{
   margin-bottom: 3%;
 }
 .image2{
-    margin-top: 20%;
-    padding: 35px 0;
+    margin-top: 23%;
+    padding: 37px 0;
 }
 .sermain{
   margin-top: 15%;
@@ -91,7 +97,7 @@ h1{
   max-width: 100%;
   margin-top: 10%;
 }
-.links text-center{
+.links {
   text-align: center;
 }
 .footer{
@@ -144,19 +150,18 @@ h1{
 }
 .card:hover img {
     transform: scale(1.2);
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 .card-1 {
-  position: absolute;
- width: 100%;
- min-height: 100%;
- background: rgba(0, 0, 0, 0.582);
- cursor: pointer;
- display: none;
- transition: all 0.5s ease;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.582);
+    cursor: pointer;
+    display: none;
+    transition: all 0.5s ease;
 }
-
-.card {
+.mor {
     padding: 5% 0;
     color: white;
     background-color: rgba(0, 0, 0, 0.301);
@@ -171,7 +176,6 @@ h1{
     letter-spacing: 2px;
     font-family: 'Merienda', cursive;
 }
-
 @media screen and (max-width:450px) {
     .form-cont input {
         width: 100%;
