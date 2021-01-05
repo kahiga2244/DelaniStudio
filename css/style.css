@@ -135,6 +135,7 @@ h1{
 }
 #portfolio img {
     width: 100%;
+    text-align: center;
 }
 .card {
     margin: 10px 0;
