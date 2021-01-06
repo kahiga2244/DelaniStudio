@@ -4,8 +4,8 @@ $('.main').click(function () {
   $(this).children('.show').toggle(1500);
 });
 // giving feedback to the customer
-$("button").click(function (omonge) {
-  var client = document.getElementById('nameDetail').value;
+$("button").click(function (stone) {
+  var client = document.getElemenuttontById('nameDetail').value;
   alert(' Dear ' + ' esteemed ' + client + ' we have received your message successful. ' + ' Feel free to reach out to us anytime');
   omonge.preventDefault();
 });
